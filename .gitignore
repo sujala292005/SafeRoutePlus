@@ -23,3 +23,8 @@ infra/.terraform/
 # Env files
 *.env
 .env
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
