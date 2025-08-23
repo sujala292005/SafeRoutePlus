@@ -1,0 +1,25 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+
+# Node/Flutter builds (we'll add Flutter soon)
+mobile/build/
+mobile/.dart_tool/
+mobile/.packages
+mobile/ios/
+mobile/android/
+
+# Terraform
+infra/.terraform/
+*.tfstate
+*.tfstate.backup
+.crash
+.terraform.lock.hcl
+
+# VSCode
+.vscode/
+
+# Env files
+*.env
+.env
