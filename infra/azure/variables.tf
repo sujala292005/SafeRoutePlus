@@ -9,3 +9,9 @@ variable "location" {
   description = "Azure region"
   default     = "centralindia"
 }
+
+variable "key_vault_name" {
+  type        = string
+  description = "Exact Key Vault name"
+  default     = "saferoutepluskvci"
+}

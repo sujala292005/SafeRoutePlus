@@ -35,7 +35,7 @@ output "storage_account_name" {
 }
 # Key Vault
 resource "azurerm_key_vault" "kv" {
-  name                = "${replace(var.project_name, "/[^a-z0-9]/", "")}kvci"
+  name                = "saferoutepluskvci"
   location            = var.location
   resource_group_name = azurerm_resource_group.rg.name
   tenant_id           = data.azurerm_client_config.current.tenant_id
